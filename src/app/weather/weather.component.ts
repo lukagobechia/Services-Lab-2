@@ -18,9 +18,9 @@ export class WeatherComponent implements OnInit{
   ngOnInit(): void {
       this.pressure.setPlace(this.Places);
   }
-  sendData(){
-    this.pressure.setPlace(this.Places);
-  }
+  // sendData(){
+  //   this.pressure.setPlace(this.Places);
+  // }
   Display(){
     this.pressure.getPlace();
   }
